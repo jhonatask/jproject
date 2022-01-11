@@ -1,10 +1,8 @@
 import React from 'react';
+import Navbar from './components/Navbar';
 function App() {
   return (
-    <div className="App">
-      
-      <h1>Olá Mundo! Provisorio</h1>
-    </div>
+    <Navbar />
   );
 }
 
