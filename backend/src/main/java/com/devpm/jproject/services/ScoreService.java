@@ -42,6 +42,7 @@ public class ScoreService {
         score.setUser(user);
         score.setValue(dto.getScore());
 
+
         score = scoreRepository.saveAndFlush(score);
 
         double res = 0.0;
